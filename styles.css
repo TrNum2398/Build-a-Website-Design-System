@@ -1,0 +1,216 @@
+body {
+  margin: 10px 10px 50px 10px;
+  background-color: #fff3d4;
+}
+
+header h1 {
+  font-family: "Caveat", cursive;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 10px;
+  background-color: #60d394;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+.title-section {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 32px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  background-color: #ff9b85;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 50px 0;
+}
+
+.colors {
+  width: 150px;
+  height: 150px;
+  /*background-color: #EE6055;*/
+  border-radius: 10px 10px 0 0;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#color-01 {
+  background-color: #ee6055;
+}
+
+#color-02 {
+  background-color: #60d394;
+}
+
+#color-03 {
+  background-color: #aaf683;
+}
+
+#color-04 {
+  background-color: #ffd97d;
+}
+
+#color-05 {
+  background-color: #ff9b85;
+}
+
+main h3 {
+  font-family: "Comic Neue", cursive;
+  font-size: 18.72px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+  margin: 0;
+}
+
+.sub-title-section {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  background-color: #aaf683;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+}
+
+.select-styles {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.caveat-family {
+  font-family: "Caveat", cursive;
+  line-height: 1.5;
+}
+
+.comic-neue-family {
+  font-family: "Comic Neue", cursive;
+  line-height: 1.5;
+}
+
+#light-300 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#light-300-italic {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#regular-400 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#regular-400-italic {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#medium-500 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#semi-bold-600 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#bold-700 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Comic Neue", cursive;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+.fonts-spec {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+#ex-main-page-heading {
+  font-family: "Caveat", cursive;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  background-color: #60d394;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+  margin: 0 0 10px 0;
+}
+
+#caveat-spec-h1 {
+  font-family: "Caveat", cursive;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+}
+
+#comic-neue-spec-h2 {
+  font-family: "Comic Neue", cursive;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+}
+
+#ex-paragraph-text {
+  font-family: "Comic Neue", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+  margin: 0 0 10px 0;
+}
+
+#comic-neue-spec-p {
+  font-family: "Comic Neue", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
